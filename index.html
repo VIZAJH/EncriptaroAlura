@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Encriptador de palabras</title>
+    <link rel="stylesheet" href="css/encriptardor.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+   <header class="logo">
+        <img src="imagenes/Vector.png" alt="">
+   </header>
+    <main>
+        <section class="left">
+            <div>
+                <textarea id="textoEncriptado" placeholder="Ingrese el texto aqui" cols="30" rows="19"></textarea >
+            </div>
+            <div class="botones">
+                <h2 class="alerta">Solo letras minusculas y sin acentos</h2>
+                <button class="btn-en" >Encriptar</button>
+                <button class="btn-des">Desencriptar</button>
+            </div>
+        </section>
+        
+        <section class="right">
+            <div class="contenedordesencriptado">
+                <img class="img2" src="imagenes/Muñeco.png" alt="">
+                <h3 id="titulo3">Ningun Mensaje encotrado</h3>
+                <textarea id="textodesencriptado" placeholder="Ingrese el texto q desea encriptar o desencriptar"   cols="20" rows="5"></textarea>
+                <button id="botonC" class="btn-cop">Copiar</button>
+            </div>
+        </section>
+        <script src="css/encriptador.js"></script>
+    </main>
+        
+</body>
+</html>
